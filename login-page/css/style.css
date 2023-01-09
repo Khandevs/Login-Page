@@ -1,0 +1,117 @@
+:root {
+     --colordefondo:rgb(22, 25, 26);
+     --colordecontenedor: rgb(255, 255, 255);
+     --fuentePrimcipal: 'Kaushan Script'
+     
+}
+
+
+
+
+
+
+
+html {
+    font-size: 65.5%;
+    box-sizing: border-box;
+    background-image: url(/img-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 170rem;
+    background-position: center;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+h1 {
+    font-size: 3rem;
+}  
+
+h2 {
+    font-size: 2.5rem;
+}  
+
+h1 {
+    font-size: 2rem;
+}  
+
+no-margin {
+    margin: 0 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+.formulario {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.contenedor {
+margin-top: 10rem;    
+background-color: rgba(122, 122, 122, 0.9);    
+box-shadow: 20px 25px 25px rgb(0, 0, 0);
+width: 100%;
+height: 60rem;
+padding: 8rem;
+border-radius: 2rem;
+    
+}
+
+.input--text{
+    border-radius: 0.9rem;
+    border-style:inherit;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    
+}
+
+.input-fiel {
+
+    font-size: 2.8rem;
+    
+}
+
+.input--text__2{
+    margin-top: 2rem;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    font-family: var(--fuentePrimcipal);
+    font-size: 7rem;
+}
+
+.botonn {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    max-width: 100%;
+}
+
+.boton{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    height:5rem;
+    width: 100%;
+    background-color: rgb(5, 4, 4);
+    border-radius: 1rem;
+}
+
+
+.user {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+
+}
+
+
